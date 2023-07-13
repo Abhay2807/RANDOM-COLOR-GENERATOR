@@ -62,4 +62,26 @@
     width:90%;
   }
 
+  @media screen and  (max-width:500px){
+
+    .container {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    .container p {
+      font-size:14px;
+    }
+
+    .container button {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 16px;
+      flex-wrap: wrap;
+    }
+    
+  }
+
 
